@@ -140,7 +140,7 @@ export class ClassesService {
 
       classUsers.push(userHash);
       console.log(classUsers, 'classUsers');
-      // class_.save();
+      class_.save();
     } catch (err) {
       console.log(err, 'err');
     }
